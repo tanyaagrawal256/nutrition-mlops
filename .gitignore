@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Model files (optional)
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac
+.DS_Store
+
+# WandB
+wandb/
+
+# Docker
+*.log
