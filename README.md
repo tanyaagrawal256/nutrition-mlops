@@ -29,15 +29,17 @@ Design and deploy a machine learning system that:
 
 🏗️ System Architecture  
 
+```
 User → Streamlit Frontend → FastAPI Backend → ML Model (.joblib)  
                                ↓  
                        Prometheus Metrics  
                                ↓  
-                            Grafana  
+                            Grafana
+```  
 
 📂 Project Structure  
 
-nutrition-mlops/  
+```nutrition-mlops/  
 │  
 ├── backend/  
 │   ├── app/  
@@ -62,7 +64,8 @@ nutrition-mlops/
 │
 ├── docker-compose.yml  
 ├── prometheus.yml  
-└── README.md  
+└── README.md
+```
 
 🤖 Machine Learning  
 	•	Model: Scikit-learn classifier  
@@ -90,6 +93,7 @@ nutrition-mlops/
 
 Example API Request  
 
+```
 {  
   "Gender": "Male",  
   "Height_cm": 170,  
@@ -114,7 +118,8 @@ Example API Request
   "Fat_Intake": 70,  
   "Preferred_Cuisine": "Indian",  
   "Food_Aversions": "None"  
-}  
+}
+``` 
 
 🖥️ Frontend – Streamlit  
 
@@ -175,13 +180,17 @@ On every push to main:
 
 Workflow file:  
 
-.github/workflows/ci.yml  
+```
+.github/workflows/ci.yml
+```
 
 🐳 Dockerization  
 
 Backend containerized using:  
 
-python:3.10-slim    
+```
+python:3.10-slim
+```    
 
 Includes:  
 	•	FastAPI  
@@ -199,7 +208,9 @@ Backend (Render)
 
 Live URL:  
 
-https://nutrition-mlops.onrender.com  
+```
+https://nutrition-mlops.onrender.com
+```
 
 Swagger:  
 
@@ -209,7 +220,9 @@ Frontend (Render)
 
 Live URL:  
 
-https://nutrition-mlops-frontend.onrender.com  
+```
+https://nutrition-mlops-frontend.onrender.com
+``` 
 
 🧩 Challenges Faced  
 	•	Model file missing in production  
