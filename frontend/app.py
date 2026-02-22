@@ -68,7 +68,7 @@ if st.button("Get Recommendation"):
         "Food_Aversions": food_aversions
     }
 
-    response = requests.post("https://nutrition-mlops.onrender.com/predict", json=payload)
+    response = requests.post("https://nutrition-mlops-api.onrender.com/predict", json=payload)
 
     if response.status_code == 200:
         prediction = response.json()["prediction"]
