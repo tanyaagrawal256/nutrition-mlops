@@ -10,9 +10,6 @@ venv/
 # Environment variables
 .env
 
-# Model files (optional)
-*.joblib
-
 # Jupyter
 .ipynb_checkpoints
 
