@@ -102,7 +102,6 @@ Example API Request
   "Chronic_Disease": "None",  
   "Blood_Pressure_Systolic": 120,  
   "Blood_Pressure_Diastolic": 80,  
-  "Cholesterol_Level": 180,  
   "Blood_Sugar_Level": 90,  
   "Genetic_Risk_Factor": "No",  
   "Allergies": "None",  
@@ -112,10 +111,6 @@ Example API Request
   "Alcohol_Consumption": "No",  
   "Smoking_Habit": "No",  
   "Dietary_Habits": "Vegetarian",  
-  "Caloric_Intake": 2000,  
-  "Protein_Intake": 80,  
-  "Carbohydrate_Intake": 250,  
-  "Fat_Intake": 70,  
   "Preferred_Cuisine": "Indian",  
   "Food_Aversions": "None"  
 }
