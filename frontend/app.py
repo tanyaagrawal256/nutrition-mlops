@@ -16,7 +16,6 @@ chronic_disease = st.selectbox("Chronic Disease", ["None", "Diabetes", "Hyperten
 blood_pressure_systolic = st.number_input("Blood Pressure Systolic", value=120)
 blood_pressure_diastolic = st.number_input("Blood Pressure Diastolic", value=80)
 
-cholesterol_level = st.number_input("Cholesterol Level", value=180)
 blood_sugar_level = st.number_input("Blood Sugar Level", value=90)
 
 genetic_risk_factor = st.selectbox("Genetic Risk Factor", ["No", "Yes"])
@@ -30,11 +29,6 @@ alcohol_consumption = st.selectbox("Alcohol Consumption", ["No", "Yes"])
 smoking_habit = st.selectbox("Smoking Habit", ["No", "Yes"])
 
 dietary_habits = st.selectbox("Dietary Habits", ["Vegetarian", "Non-Vegetarian"])
-
-caloric_intake = st.number_input("Caloric Intake", value=2000)
-protein_intake = st.number_input("Protein Intake", value=80)
-carbohydrate_intake = st.number_input("Carbohydrate Intake", value=250)
-fat_intake = st.number_input("Fat Intake", value=70)
 
 preferred_cuisine = st.selectbox("Preferred Cuisine", ["Indian", "Continental", "Asian"])
 food_aversions = st.selectbox("Food Aversions", ["None", "Spicy", "Dairy"])
@@ -50,7 +44,6 @@ if st.button("Get Recommendation"):
         "Chronic_Disease": chronic_disease,
         "Blood_Pressure_Systolic": blood_pressure_systolic,
         "Blood_Pressure_Diastolic": blood_pressure_diastolic,
-        "Cholesterol_Level": cholesterol_level,
         "Blood_Sugar_Level": blood_sugar_level,
         "Genetic_Risk_Factor": genetic_risk_factor,
         "Allergies": allergies,
@@ -60,10 +53,6 @@ if st.button("Get Recommendation"):
         "Alcohol_Consumption": alcohol_consumption,
         "Smoking_Habit": smoking_habit,
         "Dietary_Habits": dietary_habits,
-        "Caloric_Intake": caloric_intake,
-        "Protein_Intake": protein_intake,
-        "Carbohydrate_Intake": carbohydrate_intake,
-        "Fat_Intake": fat_intake,
         "Preferred_Cuisine": preferred_cuisine,
         "Food_Aversions": food_aversions
     }
