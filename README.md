@@ -132,7 +132,7 @@ The system is monitored using **Prometheus and Grafana** to track API performanc
 
 ### Production Monitoring Dashboard
 
-![Grafana Dashboard](assets/Grafana Dashboard.png)
+![Grafana Dashboard](assets/grafana-dashboard.png)
 
 ⸻  
 
