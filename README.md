@@ -126,23 +126,13 @@ Interactive UI that:
 
 ⸻  
 
-📊 Monitoring  
+## 📊 Monitoring Dashboard
 
-Prometheus  
-	•	Scrapes /metrics  
-	Tracks:  
-	•	Total API requests  
-	•	Request rate  
-	•	Latency  
-	•	5xx errors  
+The system is monitored using **Prometheus and Grafana** to track API performance and reliability.
 
-Grafana Dashboards  
+### Production Monitoring Dashboard
 
-Created dashboards:  
-	1.	Total API Requests  
-	2.	Requests per second  
-	3.	Average API Latency  
-	4.	5xx Error Rate  
+![Grafana Dashboard](assets/Grafana Dashboard.png)
 
 ⸻  
 
